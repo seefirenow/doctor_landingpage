@@ -1,10 +1,10 @@
 .wrap {
-  padding: 15px;
-  display: inline-block;
+  background-color: rgba(222, 225, 225, 0.8);
+  display: block;
   justify-content: center;
+  text-align: center;
 }
 .formAppointment {
-  background-color: rgba(222, 225, 225, 0.8);
   width: 40vw;
   border-radius: 5px;
   text-align: center;
@@ -52,4 +52,130 @@ option {
 }
 .formAppointment .form .submitBtn:hover {
   color: #1b1b1b;
+}
+@media only screen and (max-width: 1920px) {
+  .wrap {
+    width: 1000px;
+  }
+  .formAppointment {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1320px) {
+  .formAppointment {
+    width: 100%;
+  }
+}
+.formAppointment input,
+.formAppointment textarea,
+.formAppointment select,
+.formAppointment option {
+  width: 600px;
+}
+@media only screen and (max-width: 1020px) {
+  .wrap {
+    width: 800px;
+  }
+  .formAppointment {
+    width: 100%;
+  }
+}
+.formAppointment input,
+.formAppointment textarea,
+.formAppointment select,
+.formAppointment option {
+  width: 500px;
+}
+
+@media only screen and (max-width: 851px) {
+  .wrap {
+    width: 700px;
+  }
+  .appointmentHeader h1 {
+    font-size: 1.8rem;
+  }
+  .appointmentHeader h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 771px) {
+  .wrap {
+    width: 500px;
+  }
+  .formAppointment {
+    text-align: center;
+  }
+  .appointmentHeader h1 {
+    font-size: 1.6rem;
+  }
+  .appointmentHeader h2 {
+    font-size: 1.2rem;
+  }
+  .formAppointment label {
+    margin: 7px 0;
+    font-size: 12px;
+  }
+  .formAppointment input,
+  .formAppointment textarea,
+  .formAppointment select,
+  .formAppointment option {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 571px) {
+  .wrap {
+    width: 400px;
+  }
+  .formAppointment h1 {
+    margin: 7px 0;
+    font-size: 1.8rem;
+  }
+
+  .formAppointment input,
+  .formAppointment textarea,
+  .formAppointment select,
+  .formAppointment option {
+    width: 350px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 441px) {
+  .appointmentHeader h1 {
+    font-size: 1.2rem;
+  }
+
+  .appointmentHeader h2 {
+    font-size: 1.1rem;
+  }
+  .formAppointment input,
+  .formAppointment textarea,
+  .formAppointment select,
+  .formAppointment option {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .wrap {
+    width: 320px;
+  }
+  .formAppointment input,
+  .formAppointment textarea,
+  .formAppointment select,
+  .formAppointment option {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 281px) {
+  .wrap {
+    width: 260px;
+  }
+  .formAppointment input,
+  .formAppointment textarea,
+  .formAppointment select,
+  .formAppointment option {
+    width: 240px;
+  }
 }

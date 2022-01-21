@@ -1,3 +1,6 @@
+.doctorPortal {
+  margin: 0;
+}
 .doctorText {
   margin-top: 150px;
   margin-left: 100px;
@@ -229,15 +232,36 @@
     font-size: 16px;
   }
 }
-@media only screen and (max-width: 1201px) {
-  .doctorText h1 {
-    padding: 2px 0px;
-    margin-top: -30px;
+
+@media only screen and (max-width: 1251px) {
+  .doctorHeading {
+    height: 700px;
+  }
+  .doctorHeading .doctorText h1 {
     font-size: 1.8rem;
   }
+  .doctorHeading .doctorText p {
+    margin-top: -20px;
+    font-size: 1rem;
+  }
+  .doctorText .buttonAppointment {
+    margin-left: 120px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 1201px) {
+  .doctorHeading {
+    height: 600px;
+  }
+  .doctorText h1 {
+    padding: 2px 0px;
+    margin-top: -45px;
+    font-size: 18px;
+  }
   .doctorText p {
-    padding-top: 5px;
-    font-size: 14px;
+    padding-top: 10px;
+    font-size: 12px;
   }
   .doctorText .buttonAppointment,
   .doctorPortal .makeAppointment .buttonAppointment {
@@ -245,6 +269,7 @@
   }
 
   .doctorText .buttonAppointment {
+    margin-top: -20px;
     margin-left: 120px;
     width: 150px;
   }
@@ -268,6 +293,23 @@
     text-align: center;
   }
 }
+@media only screen and (max-width: 1111px) {
+  .doctorHeading {
+    height: 500px;
+  }
+  .doctorHeading .doctorText h1 {
+    margin-top: -40px;
+    font-size: 1.6rem;
+  }
+  .doctorHeading .doctorText p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .doctorText .buttonAppointment {
+    margin-left: 100px;
+    width: 150px;
+  }
+}
 
 @media only screen and (max-width: 1001px) {
   .navLink {
@@ -279,7 +321,8 @@
     font-weight: 700;
   }
   .doctorText p {
-    font-size: 12px;
+    margin-top: 0;
+    font-size: 11px;
   }
   .doctorText .buttonAppointment,
   .doctorPortal .makeAppointment .buttonAppointment {
@@ -289,7 +332,7 @@
   }
   .doctorText .buttonAppointment {
     margin-top: -20px;
-    margin-left: 80px;
+    margin-left: 70px;
     width: 130px;
   }
   .d .doctorImg img {
@@ -322,14 +365,21 @@
   .doctorPortal .dentalCare p {
     font-size: 14px;
   }
+  .doctorImg img {
+    height: 400px;
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 850px) {
-  .doctorText h1 {
-    font-size: 25px;
+  .doctorHeading .doctorText h1 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
   }
-  .doctorText p {
-    font-size: 14px;
+  .doctorHeading .doctorText p {
+    margin-top: -10px;
+    font-size: 11px;
   }
   .doctorImg img {
     height: 310px;
@@ -389,15 +439,18 @@
     height: 350px;
   }
   .doctorPortal .makeAppointment h1 {
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
   }
   .doctorPortal .makeAppointment h4 {
-    margin-top: 140px;
+    font-size: 1.5rem;
+    margin-top: 160px;
     margin-bottom: 0;
   }
   .doctorPortal .makeAppointment p {
+    font-size: 0.8rem;
     line-height: 0.8;
-    margin-bottom: 0;
+    margin-bottom: 15px;
   }
   .doctorPortal .makeAppointment > div:first-child {
     display: flex;
@@ -416,16 +469,81 @@
   margin-top: 4px;
   font-size: 10px;
 }
-
-@media only screen and (max-width: 411px) {
-  .navLink {
-    padding: 0 5px;
-    font-size: 10px;
+@media only screen and (max-width: 701px) {
+  .doctorText .buttonAppointment {
+    margin-left: 270px;
+    width: 150px;
   }
+
   .doctorImg img {
+    padding-left: 20px;
+    margin-left: 230px;
+    height: 150px;
+    width: 250px;
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 601px) {
+  .doctorText .buttonAppointment {
+    margin-left: 220px;
+    width: 140px;
+  }
+
+  .doctorImg img {
+    padding-left: 20px;
+    margin-left: 180px;
+    height: 150px;
+    width: 250px;
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 501px) {
+  .doctorText .buttonAppointment {
+    margin-left: 160px;
+    width: 150px;
+  }
+
+  .doctorImg img {
+    padding-left: 20px;
+    margin-left: 120px;
+
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 411px) {
+  .doctorPortal {
+    width: 100%;
+  }
+  .doctorHeading {
+    height: 500px;
+  }
+  .doctorHeading .doctorText h1 {
+    margin-top: -20px;
+    font-size: 1.4rem;
+  }
+  .doctorHeading .doctorText p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .doctorText .buttonAppointment {
+    margin-left: 100px;
+    width: 150px;
+  }
+
+  .doctorImg img {
+    margin-left: 60px;
     padding-left: 20px;
     height: 150px;
     width: 250px;
     margin-top: 40px;
+  }
+  .doctorPortal .makeAppointment h1 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  .doctorPortal .makeAppointment h4 {
+    font-size: 1.3rem;
+    margin-top: 140px;
+    margin-bottom: 0;
   }
 }

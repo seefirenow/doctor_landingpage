@@ -1,9 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { Button } from "@material-ui/core";
 import logo from "../../images/logo.png";
-import text from "../../images/text.png";
 import "./Appointment.css";
 import Footer from "../Footer/Footer";
 import AppointmentForm from "../AppointmentForm/AppointmentForm";
@@ -42,12 +40,6 @@ const Appointment = () => {
                 <img src={logo} alt="logo" />
               </Link>
             </Navbar.Brand>
-
-            <div className="accessibility">
-              <Button>
-                <img src={text} alt="powiększenie tekstu" />
-              </Button>
-            </div>
           </Navbar>
         </div>
         <div className="formwrap">

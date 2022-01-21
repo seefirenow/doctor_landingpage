@@ -1,7 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import "./MainPage.css";
-
 import Navigation from "../Navigation/Navigation";
 import image from "../../images/Mask Group 1.png";
 import { Link } from "react-router-dom";

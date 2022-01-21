@@ -2,9 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "./Navigation.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { Button } from "@material-ui/core";
 import logo from "../../images/logo.png";
-import { Accessibility } from "accessibility/src/main";
 
 const Navigation = () => {
   const [navBackground, setNavBackground] = useState(false);
@@ -22,6 +20,7 @@ const Navigation = () => {
       document.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <div className="bgc">
       <div className="nav">
