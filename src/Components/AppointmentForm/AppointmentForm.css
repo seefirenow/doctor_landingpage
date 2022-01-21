@@ -1,0 +1,55 @@
+.wrap {
+  padding: 15px;
+  display: inline-block;
+  justify-content: center;
+}
+.formAppointment {
+  background-color: rgba(222, 225, 225, 0.8);
+  width: 40vw;
+  border-radius: 5px;
+  text-align: center;
+}
+.appointmentHeader h1,
+.appointmentHeader h2 {
+  background: linear-gradient(#137460, #1caa8e);
+  font-size: 2rem;
+  text-align: center;
+  justify-content: center;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+.appointmentHeader h2 {
+  font-size: 1.6rem;
+}
+
+.formAppointment .form label {
+  color: #1b1b1b;
+  margin-top: 10px;
+  display: block;
+}
+.formAppointment .form input {
+  padding: 20px;
+  height: 25px;
+  width: 74%;
+  border-radius: 4px;
+}
+
+.select-containe select {
+  display: none;
+}
+
+option {
+  justify-content: center;
+  text-align: center;
+}
+.formAppointment .form .submitBtn {
+  margin-top: 10px;
+  font-weight: 700;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 4px;
+}
+.formAppointment .form .submitBtn:hover {
+  color: #1b1b1b;
+}

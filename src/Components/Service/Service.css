@@ -1,0 +1,41 @@
+.ourServices h4 {
+  padding-bottom: 20px;
+  margin: 30px 0;
+  background: linear-gradient(#137460, #1caa8e);
+  font-size: 2.5rem;
+  text-align: center;
+  justify-content: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+.ourServices {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  width: 100%;
+}
+.ourServices span {
+  display: block;
+  margin: 15px 0;
+  font-size: 1.4rem;
+  font-weight: 900;
+  background: linear-gradient(#137460, #1caa8e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ourServices p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #1b1b1b;
+}
+
+.ourServices h2 {
+  font-weight: 700;
+}
+
+.ourServices .imageService {
+  margin-top: -30px;
+}

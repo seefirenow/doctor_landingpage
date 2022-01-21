@@ -1,0 +1,51 @@
+.bgc {
+  background: gray 40%;
+  width: 100%;
+}
+.nav {
+  margin-left: 220px;
+}
+
+.one {
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1b1b1b;
+  scroll-behavior: smooth;
+}
+.bnt {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1401px) {
+  .one {
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1301px) {
+  .one {
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1201px) {
+  .one {
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1101px) {
+  .one {
+    padding: 10px 8px;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1001px) {
+  .one {
+    padding: 10px 0;
+    font-size: 12px;
+  }
+}

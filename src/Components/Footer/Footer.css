@@ -1,0 +1,111 @@
+.footer {
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+  justify-content: center;
+}
+.footer > div:first-child {
+  display: flex;
+}
+.footer > div > * {
+  width: 33.33%;
+  height: 150px;
+}
+.footer > div > div > div:first-child > p {
+  background: linear-gradient(to right, #137460, #1caa8e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+.footer .brandIcon > * {
+  border: 1px solid #19d3ae;
+  border-radius: 15px;
+  margin-top: -15px;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  color: #19d3ae;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+.footer .brandIcon > *:hover {
+  background-color: linear-gradient(#137460, #1caa8e);
+  color: #414141;
+  cursor: pointer;
+}
+.footer .wrapCallNow {
+  justify-content: center;
+  text-align: center;
+}
+.footer .callNow {
+  text-align: center;
+  padding: 10px 10px;
+  background-image: linear-gradient(to right, #137460, #1caa8e);
+  width: 160px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer small {
+  padding: -5px 0;
+  text-align: center;
+  display: block;
+  color: gray;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1920px) {
+  .footer {
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1201px) {
+  .footer {
+    max-width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1001px) {
+  .footer {
+    max-width: 800px;
+  }
+}
+@media only screen and (max-width: 851px) {
+  .footer {
+    max-width: 700px;
+  }
+  .footer small,
+  .footer p {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+@media only screen and (max-width: 701px) {
+  .footer {
+    max-width: 600px;
+  }
+}
+@media only screen and (max-width: 601px) {
+  .footer {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 401px) {
+  .footer {
+    max-width: 350px;
+  }
+  .footer .brandIcon > * {
+    height: 25px;
+    width: 25px;
+  }
+  .footer .callNow {
+    width: auto;
+  }
+  .footer .callNow button {
+    font-size: 10px;
+  }
+}

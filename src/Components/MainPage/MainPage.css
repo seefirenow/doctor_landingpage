@@ -1,0 +1,431 @@
+.doctorText {
+  margin-top: 150px;
+  margin-left: 100px;
+  font-weight: 700;
+}
+.doctorText h1 {
+  padding: 15px;
+  color: #1b1b1b;
+  justify-content: center;
+  text-align: center;
+}
+.doctorText p {
+  padding: 15px;
+  color: gray;
+  justify-content: center;
+  text-align: center;
+}
+.doctorText .buttonAppointment,
+.doctorPortal .makeAppointment .buttonAppointment {
+  padding: 10px 20px;
+  border: none;
+  background-image: linear-gradient(to right, #137460, #1caa8e);
+  color: white;
+  font-weight: 700;
+  border-radius: 3px;
+  transition: 1s ease;
+}
+
+.doctorText .buttonAppointment {
+  margin-left: 200px;
+  justify-content: center;
+  text-align: center;
+}
+.doctorText .buttonAppointment:hover {
+  background: #1b1b1b;
+  color: #b9baba;
+}
+.doctorHeading {
+  padding-top: 80px;
+  background: gray 40%;
+  background-image: linear-gradient(to left, #b9baba 5%, #ffffffd5 33%),
+    url(../../images/Mask\ Group\ 1.png);
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.doctorImg img {
+  width: 80%;
+  height: 60%;
+  padding-top: 120px;
+  padding-left: 100px;
+}
+
+.makeAppointment .buttonAppointment:hover {
+  background: white;
+  color: rgb(27, 27, 27);
+}
+.AboutUs h4,
+.testimonial h4,
+.ourBlog h4 {
+  padding-bottom: 20px;
+  margin: 30px 0;
+  background: linear-gradient(#137460, #1caa8e);
+  font-size: 2.5rem;
+  text-align: center;
+  justify-content: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.doctorPortal .dentalCare > div {
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+}
+.doctorPortal .dentalCare img {
+  height: 500px;
+  margin-left: 100px;
+  margin-top: 60px;
+  margin-right: 40px;
+}
+.doctorPortal .dentalCare h1 {
+  margin-top: 100px;
+}
+.doctorPortal .dentalCare p {
+  font-size: 20px;
+  margin-top: 20px;
+  color: gray;
+}
+.doctorPortal .publicServices {
+  display: flex;
+  margin: 70px 0 70px 0;
+  justify-content: center;
+}
+.doctorPortal .publicServices > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #414141;
+  border-radius: 5px;
+  color: white;
+  margin: 0px 10px;
+  width: 400px;
+  height: 150px;
+}
+.doctorPortal .publicServices > *:nth-child(2n-1) {
+  background-color: #1caa8e;
+}
+.doctorPortal .publicServices > * .icon {
+  font-size: 100px;
+  margin-right: 30px;
+}
+.doctorPortal .publicServices > * p {
+  font-weight: 700;
+}
+
+.doctorPortal .servicesDetails {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.doctorPortal .servicesDetails > * {
+  width: 400px;
+  padding: 0px 20px;
+  padding-top: 100px;
+}
+.doctorPortal .servicesDetails > * > p:nth-child(2) {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.doctorPortal .servicesDetails > * > p:nth-child(3) {
+  color: gray;
+}
+
+.doctorPortal .makeAppointment {
+  display: flex;
+  background-image: url(../../images/Mask\ Group\ 4.jpg);
+  background-size: 100% 75%, cover;
+  height: 600px;
+  color: white;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding-right: 10%;
+}
+.doctorPortal .makeAppointment > div {
+  width: 100%;
+}
+.doctorPortal .makeAppointment img {
+  height: 600px;
+  display: flex;
+  justify-content: flex-end;
+}
+.doctorPortal .makeAppointment h4 {
+  margin-top: 220px;
+  margin-bottom: 30px;
+  background: linear-gradient(#137460, #1caa8e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.doctorPortal .makeAppointment h1 {
+  margin-bottom: 30px;
+}
+.doctorPortal .makeAppointment p {
+  margin-bottom: 30px;
+}
+.ourBlog .ourBlogDetails img {
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.ourBlog .doctorinfo > p:first-child {
+  background: linear-gradient(#137460, #1caa8e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  margin-bottom: -5px;
+}
+.ourBlog {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.ourBlog .ourBlogDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ourBlog .ourBlogDetails > * {
+  margin: 30px;
+}
+.ourBlog h4,
+.ourBlog h1,
+.contact h4 {
+  text-align: center;
+}
+.ourBlog .ourBlogDetails > *:first-child {
+  background: linear-gradient(to right, #137460, #1caa8e);
+  color: white;
+}
+
+.contactBgc {
+  background-image: url(../../images/Mask\ Group\ 4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  padding: 60px 0;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.doctorPortal .footerWrap {
+  text-align: center;
+}
+@media only screen and (max-width: 1401px) {
+  .doctorText h1 {
+    padding: 5px;
+    font-size: 2rem;
+  }
+  .doctorText p {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1201px) {
+  .doctorText h1 {
+    padding: 2px 0px;
+    margin-top: -30px;
+    font-size: 1.8rem;
+  }
+  .doctorText p {
+    padding-top: 5px;
+    font-size: 14px;
+  }
+  .doctorText .buttonAppointment,
+  .doctorPortal .makeAppointment .buttonAppointment {
+    font-size: 14px;
+  }
+
+  .doctorText .buttonAppointment {
+    margin-left: 120px;
+    width: 150px;
+  }
+  .doctorPortal .ourServices > div {
+    width: 100%;
+  }
+  .doctorPortal .dentalCare h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .doctorPortal .dentalCare p {
+    font-size: 16px;
+  }
+  .doctorPortal .makeAppointment h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .doctorPortal .testimonial h4,
+  .doctorPortal .testimonial h1 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1001px) {
+  .navLink {
+    padding: 0 15px;
+  }
+  .doctorText h1 {
+    margin-top: -40px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .doctorText p {
+    font-size: 12px;
+  }
+  .doctorText .buttonAppointment,
+  .doctorPortal .makeAppointment .buttonAppointment {
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 800;
+  }
+  .doctorText .buttonAppointment {
+    margin-top: -20px;
+    margin-left: 80px;
+    width: 130px;
+  }
+  .d .doctorImg img {
+    width: 90%;
+    height: 80%;
+  }
+  .doctorPortal .makeAppointment img {
+    margin-left: -80px;
+  }
+  .doctorPortal .makeAppointment h1 {
+    margin-bottom: 10px;
+  }
+  .doctorPortal .makeAppointment h4 {
+    margin-top: 160px;
+    margin-bottom: 10px;
+  }
+  .doctorPortal .publicServices > * {
+    margin-top: 20px;
+    width: 250px;
+    height: 120px;
+    line-height: 0.8;
+  }
+  .doctorPortal .publicServices > * .icon {
+    font-size: 60px;
+    margin-right: 10px;
+  }
+  .doctorPortal .dentalCare img {
+    height: 400px;
+  }
+  .doctorPortal .dentalCare p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .doctorText h1 {
+    font-size: 25px;
+  }
+  .doctorText p {
+    font-size: 14px;
+  }
+  .doctorImg img {
+    height: 310px;
+  }
+  .doctorPortal .dentalCare > div {
+    flex-wrap: wrap-reverse;
+    padding: 0 40px;
+  }
+  .doctorPortal .dentalCare img {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 801px) {
+  .doctorNav {
+    margin-right: 5px;
+    margin-top: 50px;
+  }
+  .navLink {
+    padding: 0 5px;
+    font-size: 12px;
+  }
+  .doctorText {
+    margin: 0 20px;
+  }
+  .doctorImg img {
+    padding-top: 10px;
+    padding-left: 40px;
+    height: 250px;
+    width: 400px;
+  }
+
+  .doctorPortal .publicServices > * {
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    line-height: 0.6;
+  }
+  .doctorPortal .publicServices > * .icon {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  .doctorPortal .publicServices > * p {
+    margin-bottom: 0px;
+    font-size: 10px;
+  }
+  .doctorPortal .publicServices > * small {
+    font-size: 8px;
+  }
+  .doctorPortal .dentalCare img {
+    height: 300px;
+  }
+  .doctorPortal .makeAppointment {
+    height: 350px;
+  }
+  .doctorPortal .makeAppointment img {
+    height: 350px;
+  }
+  .doctorPortal .makeAppointment h1 {
+    margin-bottom: 0;
+  }
+  .doctorPortal .makeAppointment h4 {
+    margin-top: 140px;
+    margin-bottom: 0;
+  }
+  .doctorPortal .makeAppointment p {
+    line-height: 0.8;
+    margin-bottom: 0;
+  }
+  .doctorPortal .makeAppointment > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 10px;
+  }
+  .doctorPortal .makeAppointment > div:last-child {
+    margin-top: -45px;
+    margin-left: -60px;
+  }
+}
+
+.doctorPortal .makeAppointment .button {
+  padding: 5px 10px;
+  margin-top: 4px;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 411px) {
+  .navLink {
+    padding: 0 5px;
+    font-size: 10px;
+  }
+  .doctorImg img {
+    padding-left: 20px;
+    height: 150px;
+    width: 250px;
+    margin-top: 40px;
+  }
+}
