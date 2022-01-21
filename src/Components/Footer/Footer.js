@@ -39,7 +39,7 @@ const Footer = () => {
             <br />
             <small>Komputerowe badanie wzroku i dobór okularów</small>
             <br />
-            <small>Diagnostyka chorób siatkówki,</small>
+            <small>Diagnostyka chorób siatkówki</small>
             <br />
             <small>Konsultacje okulistyczne</small>
           </div>

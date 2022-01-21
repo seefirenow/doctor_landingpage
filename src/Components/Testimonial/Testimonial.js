@@ -10,7 +10,7 @@ const Testimonials = () => {
     <div id="opinion" className="testimonial">
       <div>
         <h4>Opinie</h4>
-        <h1>Co mówią o nas pacjęci</h1>
+        <h1>Co mówią o nas pacjenci</h1>
         <div className="testimonialDetails">
           <Card
             style={{
