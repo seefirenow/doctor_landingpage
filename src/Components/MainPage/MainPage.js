@@ -36,12 +36,12 @@ const MainPage = () => {
                 Zacznij już dziś
               </h1>
               <p>
-                Oral health is a key indicator of overall health, well-being and
-                quality of life. It encompasses a range of diseases and
-                conditions that include dental caries, Periodontal disease,
-                Tooth loss, Oral cancer, Oral manifestations of HIV infection,
-                Oro-dental trauma, Noma and birth defects such as cleft lip and
-                palate.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                pharetra velit vel arcu finibus maximus. Nam quis lectus mauris.
+                Cras id dui sed sem hendrerit interdum. Pellentesque facilisis
+                aliquet malesuada. Suspendisse ullamcorper, justo vitae
+                sollicitudin maximus, mi justo mattis urna, vel hendrerit ante
+                eros vel justo. Curabitur in iaculis leo, at
               </p>
               <Link style={{ textDecoration: "none" }} to="/appointment">
                 <Button className="buttonAppointment">UMÓW WIZYTĘ</Button>
